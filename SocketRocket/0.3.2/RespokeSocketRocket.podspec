@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name               = "SocketRocket"
+  s.name               = "RespokeSocketRocket"
   s.version            = '0.3.2'
   s.summary            = 'A conforming WebSocket (RFC 6455) client library.'
-  s.homepage           = 'https://github.com/robertcrabtree/SocketRocket'
+  s.homepage           = 'https://github.com/respoke/SocketRocket'
   s.author             = {
-    "Robert Crabtree" => "robert.crabtree@gmail.com"
+    "Respoke" => "info@respoke.io"
   }
   s.source           = {
-    :git => "https://github.com/robertcrabtree/SocketRocket.git",
+    :git => "https://github.com/respoke/SocketRocket.git",
     :tag => s.version.to_s
   }
   s.license            = 'Apache License, Version 2.0'
